@@ -1,0 +1,38 @@
+{
+  "name": "linked-in-ps",
+  "version": "1.0.0",
+  "description": "find job find employee",
+  "main": "./dist/app.js",
+  "type": "module",
+  "scripts": {
+    "build-tsc": "tsc -w",
+    "run-watch": "nodemon ./dist",
+    "dev": "concurrently \"npm:build-tsc\"  \"npm:run-watch\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/firaskhalayleh-it/linkedinproject.git"
+  },
+  "author": "firas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/firaskhalayleh-it/linkedinproject/issues"
+  },
+  "homepage": "https://github.com/firaskhalayleh-it/linkedinproject#readme",
+  "dependencies": {
+    "@types/morgan": "^1.9.5",
+    "concurrently": "^8.2.1",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "^4.18.2",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.1",
+    "typescript": "^5.2.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "nodemon": "^3.0.1",
+    "tsc": "^2.0.4"
+  }
+}
